@@ -1,0 +1,79 @@
+{
+  "_from": "simple-digit-roll",
+  "_id": "simple-digit-roll@0.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-Ywn4LmMdrt0C63OzW3B2Le8omQfROihmmzlbiHq7eemaO8Q/zGtkcnMMhOCtIlv9kP2flMXK8wHwo3OMuTO9eg==",
+  "_location": "/simple-digit-roll",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "simple-digit-roll",
+    "name": "simple-digit-roll",
+    "escapedName": "simple-digit-roll",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/simple-digit-roll/-/simple-digit-roll-0.1.4.tgz",
+  "_shasum": "71378fd669f5210726ff789964f1fc01dfddea52",
+  "_spec": "simple-digit-roll",
+  "_where": "/Users/xinhua/Documents/demoSpace/blog",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "user": "0.0.0",
+    "vue": "^2.6.10"
+  },
+  "deprecated": false,
+  "description": "## Project setup ``` npm install ```",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "prettier": "^1.18.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "main": "dist/simple-digit-roll.umd.min.js",
+  "name": "simple-digit-roll",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "private": false,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name simple-digit-roll src/components/index.js",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "0.1.4"
+}
