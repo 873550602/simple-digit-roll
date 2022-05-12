@@ -1,24 +1,22 @@
 # simple-digit-roll
 
-## Project setup
+## 安装
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install simple-digit-roll --save
+// or
+yarn add simple-digit-roll --save
 ```
 
-### Compiles and minifies for production
+### 使用
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+<simple-digit-roll :value="378.56"></simple-digit-roll>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### props
+
+|Name|Type|Default|Description|
+|---|---|---|---|
+|value|number|0|滚动数值｜
+|duration|number|1|动画时长，单位s|
+|itemWidth|number|无|每个数字宽度|
+|fontSize|number|12|字体大小|
